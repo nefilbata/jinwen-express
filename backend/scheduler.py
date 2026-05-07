@@ -12,14 +12,16 @@ scheduler = AsyncIOScheduler()
 
 
 def setup_scheduler(app):
+    if settings.fc_mode:
+        logger.info("FC mode: scheduler disabled, use manual crawl trigger")
+        return None
+
     @scheduler.scheduled_job(
         CronTrigger(hour=settings.crawl_hour, minute=settings.crawl_minute),
         id="daily_crawl",
     )
     async def daily_crawl():
         logger.info("Daily crawl triggered by scheduler")
-        # The actual crawl logic is in the admin endpoint;
-        # here we run the same logic as trigger_crawl
         from sqlalchemy.ext.asyncio import AsyncSession
         from database import async_session
         from api import trigger_crawl

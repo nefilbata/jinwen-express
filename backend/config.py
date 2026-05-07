@@ -3,6 +3,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     database_url: str = "sqlite+aiosqlite:///jinwen_daily.db"
+    fc_mode: bool = False  # 设为 True 时数据库存 /tmp/（兼容阿里云函数计算）
     admin_api_key: str = "jinwen-admin-2026"
 
     # AI API
