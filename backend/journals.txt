@@ -1,0 +1,43 @@
+# 金文/古文字期刊 RSS 订阅地址
+# 每行一个：期刊名称 | RSS地址
+# 以 # 开头的行为注释
+# 示例（已失效的知网RSS）：
+# 文物 | https://navi.cnki.net/knavi/rss/detail?pcode=CJFD&pykm=WENW
+# 考古 | https://navi.cnki.net/knavi/rss/detail?pcode=CJFD&pykm=KAGU
+
+# 以下为已验证可用的网站（非RSS，通过页面提取）：
+出土文献 | https://www.ctwx.tsinghua.edu.cn/ctwx/qkml.htm
+先秦史研究室 | https://www.xianqin.org/blog/
+复旦大学出土文献中心 | https://dgwz.fudan.edu.cn/
+武汉大学简帛研究中心 | https://www.bsm.org.cn/
+
+# 你也可以搜索添加以下期刊的 RSS：
+《文物》 | https://rss.cnki.net/knavi/rss/WENW?pcode=CJFD,CCJD
+《考古》 | https://rss.cnki.net/knavi/rss/KAGU?pcode=CJFD,CCJD
+《考古学报》 | https://rss.cnki.net/knavi/rss/KGXB?pcode=CJFD,CCJD
+# 《古文字研究》 | https://rss.cnki.net/knavi/rss/GYJW?pcode=CJFD,CCJD
+《江汉考古》 | https://rss.cnki.net/knavi/rss/JHKG?pcode=CJFD,CCJD
+《中原文物》 | https://rss.cnki.net/knavi/rss/ZYWW?pcode=CJFD,CCJD
+《考古与文物》 | https://rss.cnki.net/knavi/rss/KGYW?pcode=CJFD,CCJD
+《华夏考古》 | https://rss.cnki.net/knavi/rss/HXKG?pcode=CJFD,CCJD
+《故宫博物院院刊》 | https://rss.cnki.net/knavi/rss/GGBW?pcode=CJFD,CCJD
+# 《中国国家博物馆馆刊》 | https://rss.cnki.net/knavi/rss/ZLBK?pcode=CJFD,CCJD
+# 《南方文物》 | https://rss.cnki.net/knavi/rss/LFWW?pcode=CJFD,CCJD
+# 《四川文物》 | https://rss.cnki.net/knavi/rss/SCWW?pcode=CJFD,CCJD
+# 《文博》 | https://rss.cnki.net/knavi/rss/WEBO?pcode=CJFD,CCJD
+# 《殷都学刊》 | https://rss.cnki.net/knavi/rss/YDXK?pcode=CJFD,CCJD
+# 《甲骨文与殷商史》 | https://rss.cnki.net/knavi/rss/JGYS?pcode=CJFD,CCJD
+# 《青铜器与金文》 | https://rss.cnki.net/knavi/rss/QTQJ?pcode=CJFD,CCJD
+# 《简帛》 | https://rss.cnki.net/knavi/rss/JBJB?pcode=CJFD,CCJD
+《出土文献与古文字研究》 | https://rss.cnki.net/knavi/rss/CTWX?pcode=CJFD,CCJD
+# 《北方文物》 | https://rss.cnki.net/knavi/rss/BJWW?pcode=CJFD,CCJD
+# 《文物春秋》 | https://rss.cnki.net/knavi/rss/WWCQ?pcode=CJFD,CCJD
+# 《草原文物》 | https://rss.cnki.net/knavi/rss/NMWC?pcode=CJFD,CCJD
+# 《文物季刊》 | https://rss.cnki.net/knavi/rss/WWJK?pcode=CJFD,CCJD
+# 《考古学集刊》 | https://rss.cnki.net/knavi/rss/KGXJ?pcode=CJFD,CCJD
+
+# 找 RSS 的方法：
+# 1. 打开期刊官网，找 RSS/订阅 图标
+# 2. 在知网期刊页面，浏览器地址栏看是否有 RSS 链接
+# 3. Google/Bing 搜索 "期刊名 RSS"
+# 4. 维普期刊页面底部通常有 RSS 链接
