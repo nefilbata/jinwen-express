@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/v1")
 
-ADMIN_KEY = settings.admin_api_key
+ADMIN_KEY = settings.admin_key
 
 
 def verify_admin(api_key: str = Query(...)) -> None:
@@ -335,9 +335,9 @@ async def trigger_crawl(
 
     # AI summaries for new papers
     ai_svc = AISummaryService(
-        api_key=settings.openai_api_key,
-        base_url=settings.openai_base_url,
-        model=settings.openai_model,
+        api_key=settings.ai_key,
+        base_url=settings.ai_url,
+        model=settings.ai_model,
     )
 
     paper_result = await db.execute(

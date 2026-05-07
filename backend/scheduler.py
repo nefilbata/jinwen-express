@@ -12,7 +12,7 @@ scheduler = AsyncIOScheduler()
 
 
 def setup_scheduler(app):
-    if settings.fc_mode:
+    if settings.serverless_mode:
         logger.info("FC mode: scheduler disabled, use manual crawl trigger")
         return None
 
@@ -29,7 +29,7 @@ def setup_scheduler(app):
         async with async_session() as db:
             try:
                 result = await trigger_crawl(
-                    api_key=settings.admin_api_key,
+                    api_key=settings.admin_key,
                     days_back=settings.days_back,
                     db=db,
                 )
